@@ -1,0 +1,218 @@
+.nav2 {
+    display: none;
+    background-color: white;
+}
+
+.nav1 {
+    display: block;
+    background-color: white;
+}
+
+.content__parts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    font-size: 10px;
+}
+
+.content__part1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.part1__cont {
+    height: 25px;
+    width: 25px;
+}
+
+.content__navInfo ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+}
+
+.content__navInfo ul li a {
+    color: white;
+}
+
+.navBar {
+    background-color: white;
+}
+
+.navBar__container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+    gap: 20px;
+}
+
+.container__part1 {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.container__part1 h1 {
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.part1__search {
+    display: flex;
+    flex-direction: row;
+}
+
+.part1__search input {
+    background-color: rgb(235, 235, 235);
+    border: none;
+    border-bottom-left-radius: 12px;
+    border-top-left-radius: 12px;
+    width: 100%;
+    height: 30px;
+    padding: 0px 10px;
+}
+
+.search__contIcon {
+    background-color: blueviolet;
+    border-bottom-right-radius: 12px;
+    border-top-right-radius: 12px;
+    border-left: 1px solid blueviolet;
+    width: 40px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.part1__search:hover {
+    border: 1px solid black;
+    border-radius: 12px;
+}
+
+.search__contIcon:hover {
+    border-left: 1px solid black;
+    background-color: aliceblue;
+}
+
+.contIcon__contImg {
+    width: 15px;
+}
+
+.container__part2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.part2__navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.part2__navBar p {
+    font-size: 15px;
+    font-weight: 600;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.navBar__contIcon {
+    width: 20px;
+    height: 20px;
+    border: none;
+}
+
+.navProducts {
+    background-color: rgb(226, 226, 226);
+}
+
+.navProducts__cont {
+    display: flex;
+    gap: 20px;
+    padding: 11px 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.navProducts__cont a:hover {
+    color: blueviolet;
+}
+
+.menuResponsive {
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-color: white;
+    margin-top: 5px;
+    transition: all 1s;
+}
+.menuResponsive__none{
+    position: absolute;
+    top: -500px;
+    transition: all 1s;
+}
+
+.menuResponsive__part2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    border-radius: 5px;
+}
+
+.navBar__more {
+    display: flex;
+    gap: 10px;
+}
+
+.part2__navInfoMenu ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 10px;
+}
+.navProducts__contMenu {
+    background-color: black;
+    width: 100%;
+}
+.navProducts__contMenu div{
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    margin-bottom: 1px;
+    padding: 13px;
+    font-size: 13px;
+}
+/*Responsive*/
+@media screen and (max-width: 550px) {
+    .nav1 {
+        display: none;
+    }
+
+    .nav2 {
+        display: block;
+    }
+
+    .part1__search {
+        padding: 3px 20px 13px;
+    }
+}
