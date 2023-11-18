@@ -17,7 +17,6 @@ const Inicio =  () => {
     const interval = setInterval(() => {
       setNumber((prevNumber) => (prevNumber + 1) % nameElement.length);
       setName(nameElement[number]);
-      console.log(nameElement[number]);
     }, 5000);
 
     return () => {
