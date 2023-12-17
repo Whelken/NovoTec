@@ -21,7 +21,7 @@ class Database {
         return entry
     }
 }
-const randomDelay = () =>
+const randomDelay = ():Promise<void> =>
     new Promise((resolve) => {
         const max = 350
         const min = 100

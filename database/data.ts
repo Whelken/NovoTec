@@ -7,6 +7,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'audifono',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -23,6 +24,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'audifono',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -39,6 +41,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'computadora',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -54,6 +57,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'dron y camara',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -69,6 +73,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -85,6 +90,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'dron y camara',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -100,6 +106,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'computadora',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -116,6 +123,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'computadora',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -132,6 +140,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -148,6 +157,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'TV y cinema',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -158,11 +168,12 @@ const data: Record<TProductId, TProduct> = {
     'csj34l24': {
         name: 'OVE Light Space 5G, 128GB',
         id: 'csj34l24',
-        sku: '0011',
+        sku: '0032',
         img: './images/c22c23_5ccf45bbbdf842e7955635610510f7c3~mv2.webp',
         price: 984.00,
         types: 'celular',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -179,6 +190,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'TV y cinema',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -195,6 +207,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: false,
+        BestSellers: true,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -210,6 +223,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'celular',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -226,6 +240,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'TV y cinema',
         offer: false,
+        BestSellers: true,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -241,6 +256,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -257,6 +273,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'audifono',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -272,6 +289,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'TV y cinema',
         offer: false,
+        BestSellers: true,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -287,6 +305,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'celular',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -302,6 +321,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -317,6 +337,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -332,6 +353,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'audifono',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -347,6 +369,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: false,
+        BestSellers: true,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -362,6 +385,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'audifono',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -377,6 +401,7 @@ const data: Record<TProductId, TProduct> = {
         price: 999.00,
         types: 'bocina',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -392,6 +417,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -408,6 +434,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -423,6 +450,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'TV y cinema',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -438,6 +466,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'computadora',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -453,6 +482,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -469,6 +499,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'celular',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -484,6 +515,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -500,6 +532,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'celular',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -516,6 +549,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -531,6 +565,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -547,6 +582,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'computadora',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -562,6 +598,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -577,6 +614,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'audifono',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -593,6 +631,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -609,6 +648,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'celular',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -624,6 +664,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -639,6 +680,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -654,6 +696,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -670,6 +713,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'audifono',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -685,6 +729,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -700,6 +745,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'audifono',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -715,6 +761,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -730,6 +777,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'table',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -745,6 +793,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'TV y cinema',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -761,6 +810,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -776,6 +826,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -792,6 +843,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'dron y camara',
         offer: true,
+        BestSellers: true,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -808,6 +860,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'TV y cinema',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -823,6 +876,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'computadora',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -839,6 +893,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -854,6 +909,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -870,6 +926,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -885,6 +942,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'bocina',
         offer: true,
+        BestSellers:false,
         priceOffer: 999.00,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
@@ -901,6 +959,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'technology',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',
@@ -916,6 +975,7 @@ const data: Record<TProductId, TProduct> = {
         price: 984.00,
         types: 'celular',
         offer: false,
+        BestSellers:false,
         attributes: {
             info: 'Detalle del producto. Lugar ideal para agregar más información sobre tu producto como su tamaño, materiales, instrucciones de uso y mantenimiento. También es un buen espacio para explicar lo especial que es tu producto y sus beneficios.',
             policy: 'Política de devolución y reembolso. Lugar ideal para explicar a tus clientes qué hacer si no están satisfechos con su compra. Tener una política de reembolso o cambio clara es una gran manera de generar confianza y garantizar que tus clientes compren con seguridad.',

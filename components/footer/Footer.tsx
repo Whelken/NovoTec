@@ -1,7 +1,7 @@
 import React from "react";
 import "./Footer.css";
 import Link from "next/link";
-export const Footer = () => {
+export const Footer = ():JSX.Element => {
   return (
     <footer>
       <div className="footer">

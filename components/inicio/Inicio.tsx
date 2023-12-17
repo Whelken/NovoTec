@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import "./Inicio.css";
 import Link from "next/link";
 
-const Inicio =  () => {
+const Inicio =  ():JSX.Element => {
   
   const nameElement: [string, string, string] = [
     "superPrice1",
@@ -14,7 +14,7 @@ const Inicio =  () => {
   const [name, setName] = React.useState<string>(nameElement[0])
 
   useEffect(() => {    
-    const interval = setInterval(() => {
+    const interval:NodeJS.Timeout = setInterval(():void => {
       setNumber((prevNumber) => (prevNumber + 1) % nameElement.length);
       setName(nameElement[number]);
     }, 5000);

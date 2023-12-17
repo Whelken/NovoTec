@@ -1,38 +1,23 @@
 import Link from "next/link";
 import Inicio from "../../components/inicio/Inicio";
-
+import { Category } from "../../components/category/Category";
+import { BestPrice } from "../../components/bestPrice/BestPrice";
+import { MoreSold } from "../../components/moreSold/MoreSold";
+import { Offer } from "../../components/Offer/Offer";
+import { Drones } from "../../components/Drones/Drones";
 
 // import styles from './page.module.css'
 
-const api = async ()=>{
-  const data = await fetch("http://localhost:3000/api/ofertes",{
-    cache: "no-store"
-  })
-  const allData = await data.json()
-  return allData
-}
-export default async function Home() {
-  const data = await api()
-  
+export default function Home() {
+
   return (
     <main>
-      <Inicio/>
-      <div className="moreSold">
-        <div className="moreSold__content">
-          <h1>More sold</h1>
-          <div className="content__products">
-            {data.map((p:TProduct)=>{
-              return (
-                <>
-                </>
-              )
-            })}
-          </div>
-          <Link href="/">
-            <button>see everything</button>
-          </Link>
-        </div>
-      </div>
+      <Inicio />
+      <MoreSold/>
+      <Category/>
+      <BestPrice/>
+      <Offer/>
+      <Drones/>
     </main>
-  )
+  );
 }

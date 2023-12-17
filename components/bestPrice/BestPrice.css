@@ -1,0 +1,89 @@
+.bestPrice {
+    background-color: white;
+    margin-bottom: 70px;
+    height: 250px;
+}
+
+.bestPrice__content {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+}
+
+.content__imgBestPrice {
+    width: 100%;
+    height: 250px;
+}
+
+.cont {
+    position: relative;
+    width: 30px;
+}
+
+.content__contentForm {
+    position: absolute;
+    background-color: white;
+    width: 40px;
+    height: 100%;
+    right: 10px;
+    transform: rotate(-10deg);
+}
+.content__contentForm2 {
+    background-color: white;
+    width: 20px;
+    height: 100%;
+    position: absolute;
+    right: 10px;
+    transform: rotate(-4deg);
+}
+
+.stakerBestPrice__bestPrice {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 8px;
+    color: white;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(214, 39, 39);
+    border-radius: 50%;
+    transform: rotate(30deg);
+    right: 20px;
+}
+
+.contBestPrice__contBestPriceInfo {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.contBestPriceInfo__info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.contBestPriceInfo__info i{
+    font-size: 15px;
+    font-weight: 700;
+
+}
+.contBestPriceInfo__info b{
+    font-size: 40px;
+    font-weight: 900;
+}
+.contBestPriceInfo__info p{
+    font-size: 9px;
+}
+.contBestPriceInfo__contButton button{
+    border: none;
+    background-color: blueviolet;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 30px;
+    transition: all 1s;
+}
+.contBestPriceInfo__contButton button:hover{
+    background-color: black;
+    cursor: pointer;
+}

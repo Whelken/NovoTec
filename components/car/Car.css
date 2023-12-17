@@ -1,0 +1,67 @@
+.shoppingCar {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: white;
+    height: 100%;
+    transition: all 1s;
+}
+.shoppingCarNone {
+    position: absolute;
+    right: 0;
+    top: -900px;
+    background-color: white;
+    height: 100%;
+    transition: all 1s;
+}
+
+.shoppingCar__container {
+    display: flex;
+    flex-direction: column;
+    width: 220px;
+
+}
+
+.container__topCar {
+    display: flex;
+    background-color: black;
+    height: 60px;
+    align-items: center;
+}
+
+.topCar__contButton button {
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 15px;
+    margin-left: 25px;
+}
+.topCar__contButton button:hover{
+    cursor: pointer;
+}
+.topCar__title{
+    text-align: center;
+    color: white;
+    width: 100%;
+}
+.topCar__title h1{
+    font-size: 15px;
+}
+
+.container__washCar{
+    border-top: 1px solid gainsboro ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.washCar__contButtonOfLink{
+    margin: 20px 0px;
+    padding: 5px 40px;
+    background-color: blueviolet;
+    font-size: 11px;
+    color: white;
+}
+.washCar__contButtonOfLink a{
+    width: 100%;
+}

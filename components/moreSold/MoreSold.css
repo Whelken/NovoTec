@@ -1,0 +1,41 @@
+.moreSold{
+    background-color: white;
+}
+.moreSold__content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.moreSold__content h1{
+    font-size: 24px;
+    padding: 35px;
+    font-weight: 900;
+}
+.content__products{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.moreSold__content button{
+    background-color: blueviolet;
+    color: white;
+    border: none;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px 25px;
+    border-radius: 15px;
+    transition: all 1s;
+}
+.content__go{
+    padding: 40px;
+}
+.content__go button:hover{
+    cursor: pointer;
+}
+.moreSold__content button:hover{
+    background-color: black;
+}

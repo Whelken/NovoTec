@@ -14,7 +14,19 @@ type TProduct = {
     name: string,
     types: string,
     offer: boolean,
+    BestSellers:boolean,
     priceOffer?: number,
     img: string,
     attributes: ATFProduct,
+}
+
+type category = {
+    img: string,
+    link: string,
+    type:string,
+}
+
+type linkBar = {
+    link: string,
+    txt: string,
 }

@@ -2,9 +2,11 @@
 import Link from "next/link";
 import React from "react";
 import "./Nav.css";
+import Car from "../car/Car";
 
 const Nav = (): JSX.Element => {
   const [menu, setMenu] = React.useState<boolean>(false);
+  const [car, setCar] = React.useState<boolean>(false);
   return (
     <div>
       <nav className="nav1">
@@ -73,8 +75,7 @@ const Nav = (): JSX.Element => {
                   <p>favorite</p>
                 </div>
               </Link>
-              <Link href="/shopping-Cart">
-                <div className="part2__navBar">
+                <div className="part2__navBar" onClick={()=>setCar(!car)}>
                   <div className="navBar__contIcon">
                     <img
                       src="./icons\icons8-carrito-de-compras-52.png"
@@ -83,7 +84,6 @@ const Nav = (): JSX.Element => {
                   </div>
                   <p>{"0"}</p>
                 </div>
-              </Link>
             </div>
           </div>
         </div>
@@ -285,6 +285,7 @@ const Nav = (): JSX.Element => {
           </div>
         </div>
       </nav>
+      <Car car={car} setCar={setCar}/>
     </div>
   );
 };

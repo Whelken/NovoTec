@@ -1,0 +1,42 @@
+.products__content{
+
+}
+.content__date{
+    border: 1px solid gainsboro;
+    height: 300px;
+    min-width: 150px;
+    max-width: 200px;
+}
+.date__contImg{
+    position: relative;
+    border: 1px solid gainsboro;
+}
+.date__contImg p{
+    position: absolute;
+    top: 0;
+    padding: 5px;
+    background-color: red;
+    font-size: 10px;
+    color: white;
+
+}
+.date__info{
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.date__contName h2{
+    font-size: 15px;
+}
+.cont__contPrice {
+    color: rgb(0, 17, 255);
+}
+.contPrice__priceOferte{
+    display: flex;
+    gap: 10px;
+}
+.priceOferte__p1{
+    text-decoration: line-through;
+}
